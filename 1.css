@@ -1,0 +1,64 @@
+audio {display: none;}
+
+* {
+  background: whites;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+.grid-container {
+  /* background: white; */
+  /* background-image: linear-gradient(rgba(0,0,255, 0.7), rgba(255,255,0, 0.8)); */
+  background-color: #003BBF;
+                    /* , url("1.png"); */
+  background-size: 100%;
+  display: grid;
+  grid-template-columns: 1fr 0.6fr 4fr 0.6fr 2fr 6fr 1fr 2.5fr 4fr 0.6fr 2fr 3fr 1fr 2fr 5fr 1fr 2fr 3fr 0.8fr 2fr 7fr 1fr 2fr 4fr 1fr 0.6fr 2fr 3fr 1fr 2fr 5fr 1fr;
+  grid-template-rows: 1fr 4fr 3fr 0.6fr 2fr 3fr 1fr 2fr 5fr 0.6fr 2fr 3.5fr 1fr 2fr 3fr 1fr 2fr 0.6fr 2.5fr 0.6fr 3fr 0.6fr 2fr 0.6fr 1fr 2fr 3fr 0.6fr 2fr 3fr 0.6fr 2fr;
+  grid-gap: 1px;
+	/* justify-self: center; */
+  padding: none;
+  margin: none;
+  height: 100vh;
+}
+.grid-item {
+  font-size: 1vh;
+  background: conic-gradient(#EAEAEA, #A6D7E2, #EAEAEA);
+  border-radius: 50%;
+  padding: none;
+  text-align: center;
+  /* position:absolute; */
+  opacity:0;
+  transition:0s 90s;
+  border-radius: 50%;
+  /* height: 100vh; */
+}
+.grid-item:hover {
+  background: conic-gradient(#EAEAEA, #003BBF, #EAEAEA);
+  border-radius: 50%;
+  opacity:1;
+  transition:0s;
+}
+.grid-item1 {
+  font-size: 1vh;
+  background: conic-gradient(#EAEAEA, lightGrey, #EAEAEA);
+  border-radius: 50%;
+  padding: none;
+  text-align: center;
+  /* position:absolute; */
+  opacity:0;
+  transition:0s 90s;
+  border-radius: 50%;
+  /* height: 100vh; */
+}
+.grid-item1:hover {
+  background: conic-gradient(#EAEAEA, #003BBF, #EAEAEA);
+  border-radius: 50%;
+  opacity:1;
+  transition:0s;
+}
